@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       
 </head>
 <body>
     <header>
@@ -29,12 +30,15 @@
             <img src="file:///C:/Users/PC/Desktop/Malek/chien-chat-vet.jpg" alt="Erreur image">
             <aside>
                 <h3 class ="Pr">Prendre Rendez-vous</h3>
-                <input type="text" placeholder="Nom"><br>
-                <input type="text" placeholder="prenom"><br>
-                <input type="tel" placeholder="Numero de Telephone"><br>
-                <input type="text" placeholder="Date de Rv"><br>
-                <input type="button" value="Confirmer">
+                <input type="text" placeholder="Nom" id="nom"><br>
+                <input type="text" placeholder="prenom" id="prenom"><br>
+                <input type="tel" placeholder="Numero de Telephone" id ="telephone"><br>
+                <input type="text" placeholder="Date de Rv" id ="dateRv"><br>
+                <button id="confirmerBtn">Confirmer</button>
+                <div id="message"></div>
+                
             </aside>
+
         </section>
         <section>
             <h2 >Votre Partenaire de Confiance pour la Santé de Vos Animaux</h2>
@@ -100,6 +104,7 @@
             </ul>
         </section>    
     </footer>
+    <script  src="Projet.js"></script>
     
 </body>
 </html>
